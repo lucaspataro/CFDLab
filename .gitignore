@@ -1,0 +1,15 @@
+CmakeFiles
+CMakeLists.txt
+CMakeCache.txt
+*.cmake
+build
+solutionFiles
+vtk-files
+.idea
+cmake-build-debug
+Testing
+.vscode
+__pycache__
+clean.sh
+*.vtk
+Makefile
