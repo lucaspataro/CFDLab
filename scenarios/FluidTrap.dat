@@ -1,0 +1,76 @@
+#--------------------------------------------
+#            size of the domain             
+#--------------------------------------------
+xlength      2
+ylength      1
+
+#--------------------------------------------
+#            number of cells
+#--------------------------------------------
+imax        100
+jmax        50
+
+#--------------------------------------------
+#               time steps
+# dt: time step size
+# t_end: final time
+# tau: safety factor for time step size control
+#--------------------------------------------
+dt           0.05
+t_end       2000.0
+tau          0.5
+
+#--------------------------------------------
+#               output
+# dt_value: time interval for writing files
+#--------------------------------------------
+dt_value     10.0
+
+#--------------------------------------------
+#               pressure
+# itermax: maximum number of pressure iterations
+# eps: tolerance for pressure iteration (residual < eps)
+# omg: relaxation factor for SOR
+# alpha: upwind differencing factor
+#--------------------------------------------
+itermax      1000
+eps          0.00001
+omg          1.7
+alpha        0.5
+
+#--------------------------------------------
+#     Reynolds number (here: 1 / nu)
+#--------------------------------------------
+Re        10000
+
+#--------------------------------------------
+#        gravity / external forces
+#--------------------------------------------
+GX          0
+GY          -9.81
+
+#--------------------------------------------
+#         initial pressure
+#--------------------------------------------
+PI          0
+PR          7
+#--------------------------------------------
+#       initial velocity
+#--------------------------------------------
+UI          0
+VI          0
+
+#--------------------------------------------
+#       problem description
+#--------------------------------------------
+problem          FluidTrap
+geometry         ../scenarios/FluidTrap.pgm
+
+#--------------------------------------------
+#       temperature values
+#--------------------------------------------
+calcTemp   1
+TI          0.0
+T_h         0.5
+T_c         -0.5
+beta        0.00063
