@@ -5,8 +5,8 @@
 #include "multigrid.hpp"
 #include "sor.hpp"
 #include "helper.hpp"
-#include "CG.h"
-#include "spLU.h"
+#include "CG.hpp"
+#include "spLU.hpp"
 
 using namespace Eigen;
 

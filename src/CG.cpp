@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "CG.h"
+#include "CG.hpp"
 #include "sor.hpp"
 #include "helper.hpp"
 

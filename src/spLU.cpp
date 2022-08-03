@@ -2,7 +2,7 @@
 // Created by felix on 02.07.20.
 //
 
-#include "spLU.h"
+#include "spLU.hpp"
 #include <Eigen/Sparse>
 #include <iostream>
 #include "helper.hpp"

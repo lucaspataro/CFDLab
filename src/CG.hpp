@@ -2,8 +2,8 @@
 // Created by felix on 27.06.20.
 //
 
-#ifndef CFDLAB_CG_H
-#define CFDLAB_CG_H
+#ifndef CFDLAB_CG_HPP
+#define CFDLAB_CG_HPP
 
 
 #include "solver.hpp"
@@ -24,4 +24,4 @@ private:
 };
 
 
-#endif //CFDLAB_CG_H
+#endif //CFDLAB_CG_HPP
